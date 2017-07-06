@@ -1,0 +1,45 @@
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.scoller{
+    height: 100%;
+    display: flex;
+    transition: 0.5s all;
+}
+.scoller li{
+    height: 100%;
+    width: 100VW;
+    flex: 1;
+}
+.scoller a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.scoller img{
+    width: 100%;
+    height: 100%;
+}
+.shuttleNav{
+    height: 0.5rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.shuttleItem{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: grey;
+    opacity: 0.4;
+    display: inline-block;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -1.5rem;
+    transition: 0.3s all;
+}
+.shuttleActived{
+    opacity: 0.8;
+    background: #007aff;
+    transform: scale(1.5);
+}

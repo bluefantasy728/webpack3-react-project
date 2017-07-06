@@ -1,0 +1,17 @@
+.countdown{
+    font-size: 0.6rem;
+    color: #000;
+    margin: 0.2rem 0.2rem 0.2rem 0;
+}
+.countdown span{
+    height: 0.75rem;
+    line-height: 0.75rem;
+    font-size: 0.6rem;
+    padding: 0.1rem 0.2rem;
+    margin: 0.1rem;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #191919;
+    border-radius: 0.1rem;
+    text-align: center;
+}

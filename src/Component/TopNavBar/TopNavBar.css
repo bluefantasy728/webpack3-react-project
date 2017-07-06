@@ -1,0 +1,5 @@
+header{
+    height: 2.5rem;
+    background: deeppink;
+    flex-shrink: 0;
+}

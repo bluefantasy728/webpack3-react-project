@@ -1,0 +1,42 @@
+.wrap{
+    padding: 0.85rem 0.75rem;
+    background-color: #FFFFFF;
+}
+
+.topLayer a:nth-of-type(1){
+    background-image: url('../../img/ad_pic1.jpg');
+}
+.topLayer a:nth-of-type(2){
+    background-image: url('../../img/ad_pic2.jpg');
+}
+.bottomLayer a:nth-of-type(1){
+    background-image: url('../../img/ad_pic3.jpg');
+}
+.bottomLayer a:nth-of-type(2){
+    background-image: url('../../img/ad_pic4.jpg');
+}
+.wrap a{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.topLayer, .bottomLayer{
+    display: -webkit-flex;
+    display: flex;
+}
+.wrap a{
+    display: block;
+    height: 5.5rem;
+    flex-grow: 1;
+}
+.vertical{
+    width: 0.052rem;
+    background-color: #c5c5c5;
+    
+}
+.horizontal{
+    height: 0.05rem;
+    width: 100%;
+    background-color: #c5c5c5;
+}
+
+

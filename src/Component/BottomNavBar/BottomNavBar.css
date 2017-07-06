@@ -1,0 +1,43 @@
+footer{
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+.iconWrap{
+	flex: 1;
+}
+.iconWrap div{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.2rem auto;
+    background-size: 100%;
+}
+.iconWrap p{
+    text-align: center;
+    font-size: 0.5rem;
+}
+.mall{
+    background: url('../../img/mall.png') no-repeat center center;
+}
+.mall_b{
+    background: url('../../img/mall_b.png') no-repeat center center;
+}
+.category{
+    background: url('../../img/category.png') no-repeat center center;
+}
+.category_b{
+    background: url('../../img/category_b.png') no-repeat center center;
+}
+.cart{
+    background: url('../../img/cart.png') no-repeat center center;
+}
+.cart_b{
+    background: url('../../img/cart_b.png') no-repeat center center;
+}
+.order{
+    background: url('../../img/order.png') no-repeat center center;
+}
+.order_b{
+    background: url('../../img/order_b.png') no-repeat center center;
+}

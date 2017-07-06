@@ -1,0 +1,8 @@
+.goodsListWrap{
+    display: flex;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+.goodsListWrap a:nth-child(2){
+    margin: 0 0.3rem;
+}

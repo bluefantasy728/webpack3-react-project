@@ -1,0 +1,58 @@
+.goodsItem{
+    width: 100%;
+    height: 8rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    padding: 0.8rem;
+    overflow: hidden;
+    display: flex;
+}
+.goodsItem img{
+    width: 6rem;
+    height: 6rem;
+    flex-shrink: 0;
+}
+.goodsInfo{
+    flex-grow: 1;
+    padding-left: 0.8rem;
+    position: relative;
+    height: 100%;
+}
+.goodsInfo h5{
+    font-size: 0.75rem;
+    font-weight: normal;
+    min-height: 1rem;
+    line-height: 1rem;
+}
+.goodsInfo p, .goodsInfo span{
+    display: inline-block;
+}
+.goodsInfo p{
+    color: #f0535e;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+.goodsInfo em{
+    font-style: normal;
+}
+.originPrice{
+    text-decoration:line-through;
+    margin-left: 0.5rem;
+    font-size: 0.5rem;
+}
+.goodsInfo button{
+    width: 3.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+    color: #fff;
+    border-width: 0;
+}
+.goodsInfo em{
+    font-style: normal;
+    font-size: 0.1rem;
+}
+.toBuy{
+    background: deepskyblue;
+}

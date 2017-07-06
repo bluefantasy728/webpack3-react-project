@@ -1,0 +1,11 @@
+.wrap{
+    padding: 0.3rem 0.4rem;
+}
+.brandItem{
+    display: inline-block;
+    width: 40vw;
+    padding: 0.73rem;
+}
+.brandItem img{
+    width: 100%;
+}

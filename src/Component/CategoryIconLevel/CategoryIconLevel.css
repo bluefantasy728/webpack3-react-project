@@ -1,0 +1,21 @@
+.levelWrap{
+    /*height: 10rem;
+    border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.iconItem{
+    display: block;
+    width: 25VW;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.iconItem img{
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+.iconItem span{
+    font-size: 0.6rem;
+}

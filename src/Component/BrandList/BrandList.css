@@ -1,0 +1,25 @@
+.wrap{
+    width: 100vw;
+    
+}
+.brandList{
+    display: flex;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.brandItem{
+    flex-grow: 1;
+    /*margin: 0 0.2rem;*/
+}
+.brandItem img{
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin: 0 auto;
+}
+.brandItem p{
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
